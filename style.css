@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  position: absolute;
+  right: 33%;
+  font-size: 80px;
+  color: #00011c;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.grandparent {
+  background: #f0f2f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #000c40,
+    #f0f2f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #000c40,
+    #f0f2f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 200px 0px;
+  height: 100vh;
+  width: 100%;
+}
+.parentdiv {
+  background-color: #00011c;
+
+  width: 320px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.stopwatchbtn {
+  background-color: #00011c;
+  width: 320px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.time {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: xx-large;
+  display: flex;
+  background-color: #98bad5;
+  text-align: center;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  border-radius: 20px;
+  padding: 4px 20px;
+  background-color: #98bad5;
+  height: 40px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace, Times, serif;
+  font-weight: 700;
+  font-size: larger;
+}
+.btn:hover {
+  background-color: #c6d6e2;
+}
